@@ -17,4 +17,29 @@ In the create-post.ejs view we have two input text fields for the title and cont
 
 Here we can either logout or create another post as previously described. 
 
-## 
+## Technologies
+1. **IDE**: VSCode
+2. **Markup Languages**: Markdown
+3. **Template Languages**: Embedded JavaScript
+3. **Programming Languages**: JavaScript
+4. **Runtime Environment**: Node.js
+5. **WebApp Framework**: Express
+6. **Version Control System**: Github
+7. **Terminal**: powershell
+8. **Database**: MongoDB
+9. **ORM**: Prisma
+10. **Authentication Middleware**: Passport
+
+## Getting Started
+This web app is meant for the creation and storage of user posts. The user can register themselves with an email and password. Once registered they can login with their email and password. The web application on the user-facing dashboard can be used to create new posts and view the posts previously created by the user. 
+
+## Installation
+1. Make a directory to clone this repository into\
+`C:\PATH> mkdir CRUDAuthentication`
+2. Move into directory\
+`C:\PATH> cd CRUDAuthentication`
+3. Clone repository\
+`C:\PATH\CRUDAuthentication> git clone https://github.com/santi-jose/CRUDAuthentication.git`
+4. Start the server\
+`C:PATH\CRUDAuthentication> npm start`
+5. Go to [port 3000](http://localhost:3000/) to view the index page! Here you can input a fake email and password to test the functionality of our web application as described above. 
